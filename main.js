@@ -7,14 +7,14 @@ var user = {
     first: 'Neil',
     last: 'Armstrong'
   },
-  bornOn: new Date('December 12, 1979'),
+  bornOn: new Date('December 12, 1979')
 };
 
 var userOccupation = 'spaceman';
 
 var destinations = [];
 
-destinations.push('Moon', 'Mars Jupiter');
+destinations.push('Moon', 'Mars', 'Jupiter');
 
 user.destinations = destinations;
 
